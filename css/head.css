@@ -62,8 +62,6 @@
 /* #endregion顶部导航栏end */
 
 /* #region头部 */
-
-
 .header {
     height: 120px;
     background-color: aquamarine;
@@ -90,7 +88,7 @@
 
 /* #region导航 */
 .main{
-    height: 48;
+    height: 48px;
     border-bottom: 2px solid #ff0000;
 }
 .main .all-types{
@@ -112,4 +110,40 @@
     font-size: 16px;
 }
 
-/* endregion导航 */
+/* #endregion导航 */
+
+/* #region侧导航 */
+.main{
+    margin: 10px ;
+}
+.main-content .alide-nav{
+    width: 190px;
+    height: 458px;
+    background-color: pink;
+}
+.main-content .alide-nav li{
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 16px;
+}
+.main-content .alide-nav li:hover{
+     white;
+    background-color: #ff0000;
+}
+.main-content .alide-nav li:hover a{
+    color: aliceblue;
+}
+.main-content .banner{
+    width: 690px;
+    height: 458px;
+    background-color: green;
+    margin: 0 10px;
+}
+.main-content .alide-other{
+    width: 290px;
+    height: 458px;
+    background-color: blue;
+}
+
+/* #endregion侧导航 */
