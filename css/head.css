@@ -89,6 +89,27 @@
 /* #endregion头部 */
 
 /* #region导航 */
-
+.main{
+    height: 48;
+    border-bottom: 2px solid #ff0000;
+}
+.main .all-types{
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+}
+.main-nav{
+    height: 48px;
+    line-height: 48px;
+}
+.main-nav li{
+    float: left;
+    margin: 0 10px;
+    font-size: 16px;
+}
 
 /* endregion导航 */
