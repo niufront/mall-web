@@ -8,7 +8,7 @@
 /* #region顶部导航栏start */
 .topbar {
     height: 30px;
-    background-color: pink;
+    background-color: #d3d3d3;
 }
 
 .welcome {
@@ -64,7 +64,7 @@
 /* #region头部 */
 .header {
     height: 120px;
-    background-color: aquamarine;
+    background-color: #fff;
 }
 .header .cerch form{
     margin-top: 42px;
@@ -86,10 +86,11 @@
 }
 /* #endregion头部 */
 
-/* #region导航 */
+/* #region主导航 */
 .main{
     height: 48px;
     border-bottom: 2px solid #ff0000;
+    background-color: #d3d3d3;
 }
 .main .all-types{
     width: 190px;
@@ -119,7 +120,8 @@
 .main-content .alide-nav{
     width: 190px;
     height: 458px;
-    background-color: pink;
+    background-color: #ffffff;
+    position: relative;
 }
 .main-content .alide-nav li{
     height: 30px;
@@ -128,10 +130,9 @@
     padding-left: 16px;
 }
 .main-content .alide-nav li:hover{
-     white;
     background-color: #ff0000;
 }
-.main-content .alide-nav li:hover a{
+.main-content .alide-nav li:hover>a{
     color: aliceblue;
 }
 .main-content .banner{
@@ -145,20 +146,42 @@
     height: 458px;
     background-color: blue;
 }
+.second-menu{
+    width: 680px;
+    height: 458px;
+    background-color: #4ec2b6;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    padding-left: 20px;
+    display: none;
+}
+.main-content .alide-nav li:hover .second-menu{
+    display: block;
+}
+.second-menu dl{
+    height: 36px;
+    line-height: 36px;
+}
+.second-menu dl:first-child{
+    margin-top: 10px;
+}
+.second-menu dt{
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.second-menu dd{
+    float: left;
+    padding-left: 10px;
+}
+.second-menu dd a{
+    padding: 0 5px;
+    border-left: 1px solid #000000;
+}
 
 /* #endregion侧导航 */
-
-/* #region侧边二级菜单 */
-
-/* #endregion侧边二级菜单 */
-
-
-
-
-
-
-
-
 
 
 
