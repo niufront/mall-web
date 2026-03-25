@@ -135,17 +135,6 @@
 .main-content .alide-nav li:hover>a{
     color: aliceblue;
 }
-.main-content .banner{
-    width: 690px;
-    height: 458px;
-    background-color: green;
-    margin: 0 10px;
-}
-.main-content .alide-other{
-    width: 290px;
-    height: 458px;
-    background-color: blue;
-}
 .second-menu{
     width: 680px;
     height: 458px;
@@ -183,8 +172,118 @@
 
 /* #endregion侧导航 */
 
+/* #region轮播图 */
+.main-content .banner{
+    width: 690px;
+    height: 458px;
+    margin: 0 10px;
+}
+
+/* #endregion轮播图 */
+
+/* #region侧边栏其他 */
+.main-content .alide-other{
+    width: 290px;
+    height: 458px;
+}
+.alide-other .message{
+    width: 260px;
+    height: 156px;
+    padding: 0 14px;
+    border: 1px solid #000000;
+}
+.alide-other .message .title{
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    border-bottom: 1px solid #000000;
+}
+.alide-other .message .title span{
+    font-size: 14px;
+}
+.alide-other .message .title a{
+    font-size: 12px;
+}
+.alide-other .message .msg-list li{
+    height: 26px;
+    line-height: 26px;
+}
+.alide-other .other-nav{
+    margin-top: 10px;
+    width: 288px;
+    height: 288px;
+    border: 1px solid #000000;
+}
+.other-nav-list:first-child{
+    margin-top: 16px;
+}
+.other-nav-list:nth-child(2){
+    margin: 17px 0;
+}
+.other-nav-list li{
+    width: 48px;
+    height: 70px;
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+    cursor: pointer;
+}
+.other-nav-list li:first-child{
+    margin-left: 16px;
+}
+.other-nav-list .picture{
+    width: 48px;
+    height: 48px;
+    background-image: url("../images/精灵图-侧边功能.png");
+    background-position: 48px 0;
+}
 
 
+/* #endregion侧边栏其他 */
+
+/* #region导航图标 */
+.other-nav-list:nth-child(1) li:nth-child(1) .picture{
+    background-position: 0 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(2) .picture{
+    background-position: -48px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(3) .picture{
+    background-position: -96px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(4) .picture{
+    background-position: -144px 0;
+}
+
+
+.other-nav-list:nth-child(2) li:nth-child(1) .picture{
+    background-position: 0 -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(2) .picture{
+    background-position: -48px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(3) .picture{
+    background-position: -96px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(4) .picture{
+    background-position: -144px -48px;
+}
+
+
+.other-nav-list:nth-child(3) li:nth-child(1) .picture{
+    background-position: 0 -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(2) .picture{
+    background-position: -48px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(3) .picture{
+    background-position: -96px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(4) .picture{
+    background-position: -144px -96px;
+}
+
+/* #endregion导航图标 */
 
 
 
