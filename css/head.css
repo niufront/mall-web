@@ -1,9 +1,7 @@
-/* 全局 */
 .container {
     width: 1190px;
     margin: 0 auto;
 }
-
 
 /* #region顶部导航栏start */
 .topbar {
@@ -284,6 +282,22 @@
 }
 
 /* #endregion导航图标 */
+
+/* #region秒杀 */
+
+.seckill {
+    margin-top: 10px;
+}
+.seckill img {
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.seckill img:last-child {
+    margin-right: 0;
+}
+
+/* #endregion秒杀 */
 
 
 
